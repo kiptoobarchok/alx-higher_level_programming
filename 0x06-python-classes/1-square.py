@@ -9,6 +9,6 @@ class Square:
     def __init__(self, size):
         """initialize a new class
             Args:
-			    size(int): size if new class
-		"""
+                size(int): size if new class
+        """
         self.__size = size
