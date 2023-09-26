@@ -1,10 +1,10 @@
-#1/usr/bin/python3
+#!1/usr/bin/python3
 
 """Define class - square"""
 
 
 class Square:
-    
+
     def __init__(self, size=0, position=(0, 0)):
         """Initialize a new square.
         Args:
