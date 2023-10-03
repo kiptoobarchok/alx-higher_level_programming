@@ -37,7 +37,7 @@ class Rectangle:
     @height.setter
     def height(self, value):
         """Sets the height of a Rectangle instance
-			value: value of the height, must be a (pos) integer
+        value: value of the height, must be a (pos) integer
         """
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
@@ -47,8 +47,8 @@ class Rectangle:
 
     def area(self):
         """Calculate the area of a Rectangle instance
-			Return:
-            Area of rectangle = height * width
+        Return:
+        Area of rectangle = height * width
         """
         return self.__width * self.__height
 
