@@ -3,5 +3,5 @@
 
 
 class Lockedclass:
-	"prevent user from instantiating new lockedClass"
-    __slots__= ('first_name')
+    "prevent user from instantiating new lockedClass"
+    __slots__= ['first_name']
