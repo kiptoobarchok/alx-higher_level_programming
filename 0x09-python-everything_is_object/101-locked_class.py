@@ -2,6 +2,6 @@
 "Define a class"
 
 
-class Lockedclass:
+class LockedClass:
     "prevent user from instantiating new lockedClass"
     __slots__ = ['first_name']
