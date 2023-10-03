@@ -1,0 +1,47 @@
+"""
+test case for 0-add_integer module
+"""
+
+import function:
+
+    >>> add-integer = __import__('0-add_integer').add_integer
+
+test:
+
+    >>> add_integer(2, 2)
+    4
+
+    >>> add_integer(2, 2.3)
+    4
+
+    >>> add_integer(1)
+    99
+
+    >>> add_integer(2, -2)
+    0
+
+    >>> add_integer(-2, -2)
+    -4
+
+    >>> add_integer(2.0, 8.0)
+    10.0
+
+    >>> add_integer(2, "caleb")
+    Traceback (most recent call last):
+    TypeError: b must be an integer
+
+    >>> add_integer(None)
+    traceback (most recent call last):
+    TypeError: a must be an integer
+
+    >>> add_integer(1000e1000)
+    traceback (most recent call last):
+    OverflowError: cannot convert float infinity to integer
+
+    >>> add_integer("caleb", "kiptoo")
+    traceback (most recent call last):
+    TypeError: a must be an integer
+
+    >>> add_integer(float("kiptoo"))
+    traceback (most recent call last):
+    ValueError: cannot convert float kiptoo to integer
