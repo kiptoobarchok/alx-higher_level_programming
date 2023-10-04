@@ -66,5 +66,5 @@ class Rectangle:
         return (rect)
 
     def __del__(self):
-        "rint msg for deletion of rectangle"
+        "print msg for deletion of rectangle"
         print("Bye rectangle...")
