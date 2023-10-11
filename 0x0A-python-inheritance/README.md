@@ -50,7 +50,7 @@ Write a class MyInt that inherits from int:
 # 13. Can I?
 Write a function that adds a new attribute to an object if it’s possible:
 
-    Raise a TypeError exception, with the message can't add new attribute if the object can’t have new attribute
+    Raise a TypeError *_exception_*, with the message *(can't add new attribute)* if the object can’t have new attribute
     You are not allowed to use try/except
     You are not allowed to import any module
         guillaume@ubuntu:~/0x0A$ cat 101-main.py
