@@ -4,7 +4,7 @@
 # Resources
 *Read or watch*:
 
-(Inheritance) [https://intranet.alxswe.com/rltoken/ct-bhZHBxfE-aHYQoAcscQ]
+Inheritance [https://intranet.alxswe.com/rltoken/ct-bhZHBxfE-aHYQoAcscQ]
 
 (Multiple inheritance) [https://intranet.alxswe.com/rltoken/qq52YyYhDIbKBneA-u0PKw]
 
