@@ -46,7 +46,8 @@ Write a class MyInt that inherits from int:
         guillaume@ubuntu:~/0x0A$ 
 
 
-    # 13. Can I?
+
+# 13. Can I?
 Write a function that adds a new attribute to an object if it’s possible:
 
     Raise a TypeError exception, with the message can't add new attribute if the object can’t have new attribute
