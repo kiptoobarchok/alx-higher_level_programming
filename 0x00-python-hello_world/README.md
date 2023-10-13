@@ -1,56 +1,38 @@
-# 0x00-python-hello_world
+# 0x00. Python - Hello, World
 
-  # *Concepts*
-
-[C programming](https://intranet.alxswe.com/concepts/26)
+  # *Concepts*:
+  [Python programming](https://intranet.alxswe.com/concepts/550)
 
 
 # Resources
-    Read or watch:
+*Read or watch:*
 
-[Everything you need to know to start with C.pdf (You do not have to learn everything in there yet, but make sure you read it entirely first)](https://intranet.alxswe.com/rltoken/P01aLj9BDfDUOv-y9x82Yw)
+  [The Python tutorial (only the first three chapters below)](https://intranet.alxswe.com/rltoken/JsFCs_NBzMAR7-XPAZ9BoA)
 
+  [Whetting Your Appetite](https://intranet.alxswe.com/rltoken/kifRlLG2iMX5AZiW8lrCMg)
 
-[Dennis Ritchie](https://intranet.alxswe.com/rltoken/YWFrRob_-Yo-_NQikMLI-g)
+  [Using the Python Interpreter](https://intranet.alxswe.com/rltoken/RVpfAuagCo9SdfYeoHd6jg)
 
-[“C” Programming Language: Brian Kernighan](https://intranet.alxswe.com/rltoken/W4oygfMgAp5Hyc7o6QuSYQ)
+  [An Informal Introduction to Python (Read up until “3.1.2. Strings” included)](https://intranet.alxswe.com/rltoken/bVps0ZPWq7qVZ7vc-eJGTw)
 
-[Why C Programming Is Awesome](https://intranet.alxswe.com/rltoken/WYdE1novaWa0yt5fzGvLBw)
+  [How To Use String Formatters in Python 3](https://intranet.alxswe.com/rltoken/Ju0J8BxkuPX5yKZctyKfsQ)
 
-[Learning to program in C part 1](https://intranet.alxswe.com/rltoken/aE_pZLbexuLroHA0FmjLbw)
+  [Learn to Program](https://intranet.alxswe.com/rltoken/szBsJ-Qyig_RrImN7RGlOg)
 
-[Learning to program in C part 2](https://intranet.alxswe.com/rltoken/3a5y1N-0FlTaPbKRxlRLlQ)
-
-[Understanding C program Compilation Process](https://intranet.alxswe.com/rltoken/idYJyVfQRZ9e5aljiT5UKg)
-
-[Betty Coding Style](https://intranet.alxswe.com/rltoken/wJg_qB9ducisfVQNk62htg)
-
-[Hash-bang under the hood (Look at only after you finish consuming the other resources)](https://intranet.alxswe.com/rltoken/zwv5CHLybXN6KFmsjbu_tg)
-
-[Linus Torvalds on C vs. C++ (Look at only after you finish consuming the other resources)](https://intranet.alxswe.com/rltoken/JrokM8Pk6bd9wPqQvEfSAA)
-
-
-*man or help:*
-
-    gcc
-    printf (3)
-    puts
-    putchar
+  [Pycodestyle – Style Guide for Python Code](https://intranet.alxswe.com/rltoken/tgYt-0zVy1T4sDlE9ohxnA)
 
 # Learning Objectives
     At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 # General
-    Why C programming is awesome
-    Who invented C
-    Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
-    What happens when you type gcc main.c
-    What is an entry point
-    What is main
-    How to print text using printf, puts and putchar
-    How to get the size of a specific type using the unary operator sizeof
-    How to compile using gcc
-    What is the default program name when compiling with gcc
-    What is the official C coding style and how to check your code with betty-style
-    How to find the right header to include in your source code when using a standard library function
-    How does the main function influence the return value of the program
+
+    Why Python programming is awesome
+    Who created Python
+    Who is Guido van Rossum
+    Where does the name ‘Python’ come from
+    What is the Zen of Python
+    How to use the Python interpreter
+    How to print text and variables using print
+    How to use strings
+    What are indexing and slicing in Python
+    What is the official Python coding style and how to check your code with pycodestyle
