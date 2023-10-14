@@ -23,7 +23,7 @@
 
         Unittest
 
-        Read/Write filet
+        Read/Write file
 
 
 You will also learn about:
