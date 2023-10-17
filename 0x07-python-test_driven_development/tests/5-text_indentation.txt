@@ -1,0 +1,16 @@
+"""
+5-text_indentation test
+
+----------------------------------
+import module
+>>> text_indentation = __import__.('5-text_indentation').text_indentation
+
+-----------------------------------
+>>> text_indentation("my name is Caleb.\n\nI am 20yrs")
+my name is Caleb.
+
+
+I am 20yrs
+>>> 
+
+"""
