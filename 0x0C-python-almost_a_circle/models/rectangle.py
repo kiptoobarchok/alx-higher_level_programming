@@ -15,7 +15,7 @@ class Rectangle(Base):
     def width(self):
         "getter for width"
         return self.__width
-    
+
     @width.setter
     def width(self, value):
         "set the value of width"
@@ -29,7 +29,7 @@ class Rectangle(Base):
     def height(self):
         "get the value of height"
         return self.__height
-    
+
     @height.setter
     def height(self, value):
         if type(value) != int:
@@ -42,7 +42,7 @@ class Rectangle(Base):
     def x(self):
         "get value of x"
         return self.__x
-    
+
     @x.setter
     def x(self, value):
         "set the value of x"
@@ -56,7 +56,7 @@ class Rectangle(Base):
     def y(self):
         "get the value of y"
         return self.__y
-    
+
     @y.setter
     def y(self, value):
         "set the value of y"
@@ -65,7 +65,7 @@ class Rectangle(Base):
         if value < 0:
             raise ValueError("x must be >= 0")
         self.__y = value
-    
+
     def area(self):
         "calculate area and return its value"
         return self.width * self.height
@@ -75,7 +75,7 @@ class Rectangle(Base):
             print("")
             return
 
-        [print("") for y in range (self.y)]
+        [print("") for y in range(self.y)]
         for h in range(self.height):
             [print(" ", end="") for x in range(self.x)]
             [print("#", end="") for w in range(self.width)]
@@ -89,7 +89,7 @@ class Rectangle(Base):
             "x": self.x,
             "y": self.y
         }
-    
+
     def __str__(self):
         "return __dict__ representation of rectangle"
         return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id, self.x, self.y,
