@@ -33,6 +33,7 @@ class Rectangle(Base):
 
     @height.setter
     def height(self, value):
+        "set value of height"
         if type(value) != int:
             raise TypeError("height must be an integer")
         if value <= 0:
@@ -83,6 +84,7 @@ class Rectangle(Base):
             print("")
 
     def to_dictionary(self):
+        "return dictionary representation of rectangle"
         return {
             "id": self.id,
             "width": self.width,
@@ -92,6 +94,6 @@ class Rectangle(Base):
         }
 
     def __str__(self):
-        "return __dict__ representation of rectangle"
+        "return __str__ representation of rectangle"
         return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id, self.x, self.y,
                                                        self.width, self.height)
