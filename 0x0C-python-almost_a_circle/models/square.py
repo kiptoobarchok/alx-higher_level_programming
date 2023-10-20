@@ -26,6 +26,8 @@ class Square(Rectangle):
             "y": self.y
         }
 
-    def __str__(self) -> str:
-        return "[Square] ({}) {}/{} - {}".fromat(self.id, self.x,
-                                                 self.y,self.width)
+    def __str__(self):
+        "return str representation of Square"
+        return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id,
+                                                       self.x, self.y,
+                                                       self.width, self.height)
