@@ -1,15 +1,13 @@
 #!/usr/bin/python3
-"define a class Base"
-import json
+"base class for all classes in the project"
 
 
 class Base:
-    "class with private attribute"
+    "Base class"
     __nb_objects = 0
-
-    def __init__(self,  id=None):
-        if id is not None:
+    def __init__(self, id=None):
+        Base.__nb_objects += 1
+        if id != None:
             self.id = id
         else:
-            Base.__nb_objects += 1
             self.id = Base.__nb_objects
