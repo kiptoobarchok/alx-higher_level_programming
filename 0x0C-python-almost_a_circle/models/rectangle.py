@@ -1,10 +1,16 @@
 #!/usr/bin/python3
-from .base import Base
-"class that inherits from Base"
+'''
+class Rectangle:
+        inherits from Base
+'''
+from models.base import Base
+
 
 
 class Rectangle(Base):
-    "defining rectangle attributes"
+    '''
+        defining Rectangle class attributes
+    '''
     def __init__(self, width, height, x=0, y=0, id=None):
         super().__init__(id)
 
@@ -15,22 +21,22 @@ class Rectangle(Base):
 
     @property
     def width(self):
-        "function to return width of rectangle"
+        '''
+            function to return width of rectangle
+        '''
         return self.__width
 
     @width.setter
     def width(self, value):
-        """"
-        function to set value of rectangle
-        and assert it
-        """
-        if not isinstance(value, int):
+       '''
+            function to set value of rectangle
+            and assert it
+        '''
+       if not isinstance(value, int):
             raise TypeError("width must be an integer")
-
-        elif value <= 0:
+       elif value <= 0:
             raise ValueError("width must be > 0")
-
-        else:
+       else:
             self.__width = value
 
     @property
