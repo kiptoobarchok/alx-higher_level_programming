@@ -6,7 +6,6 @@ class Rectangle:
 from models.base import Base
 
 
-
 class Rectangle(Base):
     '''
         defining Rectangle class attributes
@@ -28,15 +27,15 @@ class Rectangle(Base):
 
     @width.setter
     def width(self, value):
-       '''
+        '''
             function to set value of rectangle
             and assert it
         '''
-       if not isinstance(value, int):
+        if not isinstance(value, int):
             raise TypeError("width must be an integer")
-       elif value <= 0:
+        elif value <= 0:
             raise ValueError("width must be > 0")
-       else:
+        else:
             self.__width = value
 
     @property
