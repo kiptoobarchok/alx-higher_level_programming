@@ -99,7 +99,7 @@ class Rectangle(Base):
             print()
 
         for i in range(self.height):
-            print("#" * self.width)
+            print(" " * self.x + "#" * self.width)
 
     def update(self, *args, **kwargs):
         "function to update the values of height, width, X and Y"
