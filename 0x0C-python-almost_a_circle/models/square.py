@@ -3,9 +3,8 @@
     class Square:
         that inherits from Rectangle
 '''
-
-
 from .rectangle import Rectangle
+
 
 class Square(Rectangle):
     '''
@@ -22,7 +21,7 @@ class Square(Rectangle):
         function to customize a tring representation
         '''
         return (f"[Square] ({self.id}) {self.x}/{self.y} - {self.size}")
-    
+
     @property
     def size(self):
         '''
