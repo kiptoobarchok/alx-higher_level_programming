@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-"class that inherits from Base"
 from .base import Base
+"class that inherits from Base"
 
 
 class Rectangle(Base):
+    "defining rectangle attributes"
     def __init__(self, width, height, x=0, y=0, id=None):
         super().__init__(id)
 
