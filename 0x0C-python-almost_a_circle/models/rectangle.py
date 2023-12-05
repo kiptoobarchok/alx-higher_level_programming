@@ -120,4 +120,7 @@ class Rectangle(Base):
 
     def __str__(self):
         "function to return a customized string"
-        return (f"[Rectangle] ({self.id}) {self.__x}/{self.__y} - {self.__width}/{self.__height}")
+        return (
+            f"[Rectangle] ({self.id}) {self.__x}/{self.__y} - "
+            f"{self.__width}/{self.__height}"
+        )
