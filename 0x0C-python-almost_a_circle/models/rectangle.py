@@ -15,10 +15,15 @@ class Rectangle(Base):
 
     @property
     def width(self):
+        "function to return width of rectangle"
         return self.__width
 
     @width.setter
     def width(self, value):
+        """"
+        function to set value of rectangle
+        and assert it
+        """
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
 
@@ -30,10 +35,15 @@ class Rectangle(Base):
 
     @property
     def height(self):
+        "function to get height of rectangle"
         return self.__height
 
     @height.setter
     def height(self, value):
+        """
+        setter for the rectangle's height
+        and assert its value
+        """
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
         elif value <= 0:
@@ -43,10 +53,12 @@ class Rectangle(Base):
 
     @property
     def x(self):
+        "function to get value of X"
         return self.__x
 
     @x.setter
     def x(self, value):
+        "function to set X and assert it's value"
         if not isinstance(value, int):
             raise TypeError("x must be an integer")
         elif value < 0:
@@ -57,10 +69,12 @@ class Rectangle(Base):
 
     @property
     def y(self):
+        "function to get Y"
         return self.__y
 
     @y.setter
     def y(self, value):
+        "function to set the value of Y and assert it's value"
         if not isinstance(value, int):
             raise TypeError("y must be an integer")
 
@@ -71,9 +85,11 @@ class Rectangle(Base):
             self.__y = value
 
     def area(self):
+        "function to return area of rectangle"
         return self.__width * self.__height
 
     def display(self):
+        "fuunction to display the rectangle as # "
         for i in range(self.y):
             print()
 
@@ -81,6 +97,7 @@ class Rectangle(Base):
             print("#" * self.width)
 
     def update(self, *args, **kwargs):
+        "function to update the values of height, width, X and Y"
         if args:
             if len(args) >= 1:
                 self.id = args[0]
@@ -97,5 +114,6 @@ class Rectangle(Base):
                 setattr(self, key, value)
 
     def __str__(self):
+        "function to return a customized string"
         return (f"[Rectangle] ({self.id})\
                 {self.__x}/{self.__y} - {self.__width}/{self.__height}")
