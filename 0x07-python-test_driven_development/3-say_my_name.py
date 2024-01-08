@@ -11,3 +11,8 @@ def say_my_name(first_name, last_name=""):
         raise TypeError("last_name must be a string")
 
     print(f"My name is {first_name} {last_name}")
+
+
+if __name__ == "__import__":
+    import doctest
+    doctest.testmod()
