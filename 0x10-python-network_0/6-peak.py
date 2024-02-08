@@ -1,8 +1,15 @@
 #!/usr/bin/python3
 #function that finds a peak in a list of unsorted integers
+"function to find peak in an unsorted list"
 
 def find_peak(list_of_integers):
-    "function to find peak in list of unsorted integers"
+    """
+    function to find peak in list of unsorted integers
+    Args:
+        list_of_integers
+    Return:
+        peak integer
+    """
     if not list_of_integers:
         return None
     
