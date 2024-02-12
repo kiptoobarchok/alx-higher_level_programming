@@ -4,6 +4,7 @@ Python script to Sends a request to a URL and displays
 the value of the X-Request-Id variable
 """
 
+
 import urllib.request
 import sys
 
