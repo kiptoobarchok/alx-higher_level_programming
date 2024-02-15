@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-"sends POST request to url with email parameter and display body response"
+"""
+sends request to the URL and displays the value of
+the variable X-Request-Id in the response header
+"""
 
 import sys
 import requests
