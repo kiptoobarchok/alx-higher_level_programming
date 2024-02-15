@@ -4,11 +4,21 @@
 import sys
 import requests
 
+def get_request_id(url):
+    try:
+        response = requests.get(url)
+        request_id = response.headers.get('X-Request-Id')
+        if request_id:
+            print(f"X-Request-Id: {request_id}")
+        else:
+            print("X-Request-Id header not found in the response.")
+    except requests.exceptions.RequestException as e:
+        print(f"Error: {e}")
+
 if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: python script.py <URL>")
+        sys.exit(1)
     url = sys.argv[1]
-    email = sys.argv[2]
-
-    data = {"email": email}
-    response = requests.post(url, data=data)
-
-    print(response.text)
+    get_request_id(url)
+    
