@@ -1,5 +1,13 @@
 #!/usr/bin/node
-const fs = require('fs');
-fs.readFile(process.argv[2], 'utf8', function (error, content) {
-  console.log(error || content);
+
+const request = require('request');
+request(process.argv[2], function (error, response, body) {
+  if (!error) {
+    const results = JSON.parse(body).results;
+    console.log(results.reduce((count, movie) => {
+      return movie.characters.find((character) => character.endsWith('/18/'))
+        ? count + 1
+        : count;
+    }, 0));
+  }
 });
