@@ -70,5 +70,3 @@ At the end of this project, you are expected to be able to explain to anyone, wi
     7   Suspense
     8   Thriller
     $
-
-![Alt text](bc2575fee3303b731031.png)
